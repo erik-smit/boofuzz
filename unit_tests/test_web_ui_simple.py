@@ -22,7 +22,6 @@ class MyTestClass(BaseCase):
 
         self.open("http://localhost:26000")
         self.assert_text("boofuzz Fuzz Control", "div.main-title")
-        self.assert_text("fail", "div.main-title")
 
     # def test_basic(self):
     #     pass
